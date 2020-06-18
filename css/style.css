@@ -1,0 +1,81 @@
+body {
+background: #ce299a; /* Old browsers */
+background: -moz-linear-gradient(top,  #ce299a 0%, #2989d8 50%, #207cca 51%, #6ac482 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ce299a 0%,#2989d8 50%,#207cca 51%,#6ac482 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ce299a 0%,#2989d8 50%,#207cca 51%,#6ac482 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce299a', endColorstr='#6ac482',GradientType=0 ); /* IE6-9 */
+}
+
+h1 {
+  color: purple;
+  background: white;
+  text-align: left;
+  text-indent: 5px;
+}
+
+p,li{
+  font-size: 1.4em;
+}
+
+.facts {
+  background: green;
+  min-width: 80%;
+  min-height: 100%;
+}
+
+.facts li {
+  /*float: left;*/
+  width: 33%;
+}
+
+.facts .important {
+  font-size: 2em;
+  color: red;
+}
+
+.important {
+  color: blue;
+}
+
+.col-md {
+  background: pink;
+  border: 5px dotted grey;
+}
+.dogfashion h3 {
+  background: white;
+}
+
+
+.btn {
+  background: green;
+  color: white;
+  font-size: 2em;
+  padding: 18px 40px;
+  width: 100%;
+  border-radius: 100px;
+  transition: transform 2s;
+}
+
+.btn:hover {
+  background: pink;
+  color: black;
+  transform: rotateY(0deg) rotate(45deg); /* needs Y at 0 deg to behave properly*/
+}
+
+.bg-light {
+    background-color: #AAA !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background: purple;
+  }
+  img {
+    width: 100%;
+  }
+  .facts li {
+    float: none;
+    width: 100%;
+
+  }
+}
